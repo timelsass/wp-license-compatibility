@@ -1,0 +1,9 @@
+{
+  "name": "wp-license-compatibility",
+  "version": "1.0.0",
+  "description": "License data for performing license compatibility checks.",
+  "main": "index.js",
+  "repository": "https://github.com/timelsass/wp-license-compatibility",
+  "author": "Tim <dev@tim.ph>",
+  "license": "GPL-2.0-or-later"
+}
