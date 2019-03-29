@@ -1,5 +1,5 @@
 # wp-license-compatibility
-License data for performing compatibility checks for WordPress Themes and Plugins
+License data for performing compatibility checks.
 
 ## Install
 
@@ -19,7 +19,7 @@ $ npm install wp-license-compatibility
 
 ## What is this?
 
-Originally this data was gathered for supporting the WordPress Theme Review Team's [https://github.com/WPTRT/theme-sniffer](Theme Sniffer) [https://wordpress.org/plugins/theme-sniffer](Plugin), so that some validation could be done for theme submissions to WordPress.org's theme repository.  The data is useful outside of this context, and can be used for any purpose.
+Originally this data was gathered for supporting the WordPress Theme Review Team's [Theme Sniffer](https://github.com/WPTRT/theme-sniffer) [Plugin](https://wordpress.org/plugins/theme-sniffer), so that some validation could be done for theme submissions to WordPress.org's theme repository.  The data is useful outside of this context, and can be used for any purpose.
 
 The data is indexed by SPDX license identifier, and includes the following:
 - Accumulation of SPDX/non-SPDX license identifiers.
@@ -28,7 +28,7 @@ The data is indexed by SPDX license identifier, and includes the following:
 - Compatibility fields for `GPL-2.0-only`.
 - Compatibility fields for `GPL-3.0-only`.
 
-The initial support for compatibility checks was for checking against [https://github.com/WordPress/WordPress/blob/master/license.txt](WordPress.org's GPL-2.0-or-later license).  As the Theme Sniffer plugin progresses, we hope to add some compatibility checking to bundled resources in themes and perform some compatibility checking upon those.  This can lead to further data being added to support other licenses if the need arises.
+The initial support for compatibility checks was for checking against [WordPress.org's GPL-2.0-or-later license](https://github.com/WordPress/WordPress/blob/master/license.txt).  As the Theme Sniffer plugin progresses, we hope to add some compatibility checking to bundled resources in themes and perform some compatibility checking upon those.  This can lead to further data being added to support other licenses if the need arises.
 
 As a note, while this repo uses various sources to accumulate the data - the license data does show favor towards the SPDX license identifiers.  SPDX is the most comprehesive and standardized approach to license expressions, which provides a solid base for extending.
 
@@ -45,6 +45,6 @@ Until there's a proper build process in place for the base script, there's not a
 ## Special Thanks
 
 The following resources have provided the data and insight used for this data:
-- [https://spdx.org](SPDX)
-- [https://github.com/spdx/license-list-data](SPDX/license-list-data)
-- [https://www.gnu.org/licenses/license-list.en.html](FSF Compatibility Notes)
+- [SPDX](https://spdx.org)
+- [SPDX/license-list-data](https://github.com/spdx/license-list-data)
+- [FSF Compatibility Notes](https://www.gnu.org/licenses/license-list.en.html)
