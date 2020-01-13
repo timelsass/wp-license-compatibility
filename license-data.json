@@ -2154,6 +2154,7 @@
     "isGpl3Compatible": true,
     "ids": ["GPL-2.0-or-later", "GPLv2"],
     "names": [
+      "GNU General Public License v2 or later",
       "GNU General Public License v2.0 or later",
       "GNU General Public License (GPL) version 2"
     ],
